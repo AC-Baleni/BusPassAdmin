@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/updates"
+        android:icon="@drawable/update"
+        android:title="@string/updates" />
+    <item
+        android:id="@+id/tickets"
+        android:icon="@drawable/ticket_icon"
+        android:title="@string/tickets" />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/bus"
+        android:title="@string/booked" />
+</menu>

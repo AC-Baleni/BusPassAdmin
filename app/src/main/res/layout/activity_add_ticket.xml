@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddTicket">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Bus Ticket"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.145" />
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="171dp"
+        android:layout_height="63dp"
+        android:background="@drawable/rounded_button"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <ImageButton
+        android:id="@+id/backBtnAddTicket"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_button"
+        android:paddingStart="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_arrow_back_ios_24" />
+
+    <ProgressBar
+        android:id="@+id/progressBarABT"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/submitBtn"
+        app:layout_constraintEnd_toEndOf="@+id/submitBtn"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/submitBtn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.965" />
+
+    <FrameLayout
+        android:layout_width="420dp"
+        android:layout_height="400dp"
+        app:layout_constraintBottom_toTopOf="@+id/progressBarABT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:splitMotionEvents="false">
+
+            <EditText
+                android:id="@+id/licensePlateET"
+                android:layout_width="337dp"
+                android:layout_height="64dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/rounded_textbox"
+                android:ems="10"
+                android:hint="Bus Number"
+                android:inputType="text"
+                android:paddingStart="20dp" />
+
+            <EditText
+                android:id="@+id/fromET"
+                android:layout_width="335dp"
+                android:layout_height="59dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/rounded_textbox"
+                android:ems="10"
+                android:enabled="true"
+                android:focusable="false"
+                android:hint="From"
+                android:inputType="text"
+                android:paddingStart="20dp" />
+
+            <EditText
+                android:id="@+id/destinationET"
+                android:layout_width="339dp"
+                android:layout_height="59dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/rounded_textbox"
+                android:ems="10"
+                android:enabled="true"
+                android:focusable="false"
+                android:hint="Destination"
+                android:inputType="text"
+                android:paddingStart="20dp" />
+
+            <EditText
+                android:id="@+id/priceET"
+                android:layout_width="337dp"
+                android:layout_height="59dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/rounded_textbox"
+                android:ems="10"
+                android:hint="Price Per Km"
+                android:inputType="numberDecimal"
+                android:paddingStart="20dp" />
+
+            <EditText
+                android:id="@+id/depTimeET"
+                android:layout_width="337dp"
+                android:layout_height="59dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/rounded_textbox"
+                android:ems="10"
+                android:focusable="false"
+                android:hint="Departure Time"
+                android:inputType="datetime|time"
+                android:paddingStart="20dp" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

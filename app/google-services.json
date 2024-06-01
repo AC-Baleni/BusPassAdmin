@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "1056265778466",
+    "firebase_url": "https://buspasspro-default-rtdb.firebaseio.com",
+    "project_id": "buspasspro",
+    "storage_bucket": "buspasspro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056265778466:android:efce2a2ab782c2325fa17b",
+        "android_client_info": {
+          "package_name": "com.example.buspass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056265778466-k7qqdoq03ssqotg7l3ogf71cdqhf940i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.buspass",
+            "certificate_hash": "44ab703baf32a18fc8b63d6153a24f97b24f3bca"
+          }
+        },
+        {
+          "client_id": "1056265778466-7tun1r8qi4cm5fai8gmo02n8rjmfudhe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1-WPl1LTYLgs1xUaPyUkdFABFGGIr7wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056265778466-7tun1r8qi4cm5fai8gmo02n8rjmfudhe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056265778466:android:0d649670d6f09e795fa17b",
+        "android_client_info": {
+          "package_name": "com.example.buspassadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056265778466-ijheenkset51aj9obqpmv0h8rksmavr5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.buspassadmin",
+            "certificate_hash": "44ab703baf32a18fc8b63d6153a24f97b24f3bca"
+          }
+        },
+        {
+          "client_id": "1056265778466-7tun1r8qi4cm5fai8gmo02n8rjmfudhe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1-WPl1LTYLgs1xUaPyUkdFABFGGIr7wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056265778466-7tun1r8qi4cm5fai8gmo02n8rjmfudhe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056265778466:android:9567b4977243a4275fa17b",
+        "android_client_info": {
+          "package_name": "com.example.buspasspro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056265778466-met5em1nl6tl1gg6r1c1enu572dpuat2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.buspasspro",
+            "certificate_hash": "44ab703baf32a18fc8b63d6153a24f97b24f3bca"
+          }
+        },
+        {
+          "client_id": "1056265778466-7tun1r8qi4cm5fai8gmo02n8rjmfudhe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1-WPl1LTYLgs1xUaPyUkdFABFGGIr7wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056265778466-7tun1r8qi4cm5fai8gmo02n8rjmfudhe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

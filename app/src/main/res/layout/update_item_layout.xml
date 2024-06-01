@@ -1,0 +1,131 @@
+<!-- ticket_item_layout.xml -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:paddingHorizontal="20dp">
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="201dp"
+        android:background="@drawable/upsates_edittext"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="193dp">
+
+            <ImageButton
+                android:id="@+id/editImgBtnUpdate"
+                android:layout_width="47dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="56dp"
+                android:background="@drawable/rounded_button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.783"
+                app:layout_constraintStart_toEndOf="@+id/tableRow"
+                app:layout_constraintTop_toBottomOf="@+id/textView11"
+                app:srcCompat="@drawable/setting_icon" />
+
+            <ImageButton
+                android:id="@+id/deleteImgBtnUpdate"
+                android:layout_width="47dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/red_button"
+                app:layout_constraintEnd_toEndOf="@+id/editImgBtnUpdate"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/editImgBtnUpdate"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/baseline_delete_24" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/editImgBtnUpdate"
+                app:layout_constraintStart_toStartOf="@+id/editImgBtnUpdate"
+                app:layout_constraintTop_toBottomOf="@+id/editImgBtnUpdate"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                app:layout_constraintEnd_toEndOf="@+id/deleteImgBtnUpdate"
+                app:layout_constraintStart_toStartOf="@+id/deleteImgBtnUpdate"
+                app:layout_constraintTop_toBottomOf="@+id/deleteImgBtnUpdate" />
+
+            <TableRow
+                android:id="@+id/tableRow"
+                android:layout_width="237dp"
+                android:layout_height="3dp"
+                android:background="#00E676"
+                app:layout_constraintBottom_toTopOf="@+id/tableRow3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.39"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/linearLayout2"
+                app:layout_constraintVertical_bias="0.96">
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="91dp"
+                android:layout_height="3dp"
+                android:background="#7C7C7C"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/tableRow"
+                app:layout_constraintHorizontal_bias="0.56"
+                app:layout_constraintStart_toStartOf="@+id/tableRow" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="303dp"
+                android:layout_height="147dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/textView11"
+                app:layout_constraintHorizontal_bias="0.563"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.275">
+
+                <TextView
+                    android:id="@+id/titleUpdateTXT"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Title"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/messageUpdateTXT"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Message" />
+
+                <TextView
+                    android:id="@+id/timeSpanTXT"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="20dp"
+                    android:text="From To" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+
+    <!-- Add more TextViews for other ticket information (e.g., bus license plate, departure time, etc.) -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

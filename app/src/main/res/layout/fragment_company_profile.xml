@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:layout_marginTop="50dp"
+    tools:context=".Profile.CompanyProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="Company Profile"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/logoImgView"
+                android:layout_width="162dp"
+                android:layout_height="158dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                tools:src="@drawable/baseline_add_a_photo_24" />
+
+            <TextView
+                android:id="@+id/companyNameTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="48dp"
+                android:text="Company Name"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/companyNameET"
+                android:layout_width="307dp"
+                android:layout_height="61dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/rounded_textbox"
+                android:ems="10"
+                android:hint="Company Name"
+                android:inputType="text"
+                android:paddingStart="20dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/companyEmailTXT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Company Email"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/comanyEmailET"
+                android:layout_width="301dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/rounded_textbox"
+                android:ems="10"
+                android:hint="Company Email"
+                android:inputType="text"
+                android:paddingStart="20dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/companyTelTXT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Company Telephone"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/companyPhoneET"
+                android:layout_width="300dp"
+                android:layout_height="59dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/rounded_textbox"
+                android:ems="10"
+                android:hint="Company Phone"
+                android:inputType="text"
+                android:paddingStart="20dp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/companyProfileUpdateBtn"
+                android:layout_width="266dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/rounded_button"
+                android:enabled="true"
+                android:text="Update"
+                android:textColor="#FFFFFF"
+                android:visibility="gone" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

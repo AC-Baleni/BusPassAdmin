@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BusPassAdmin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="default_web_client_id">AIzaSyA1-WPl1LTYLgs1xUaPyUkdFABFGGIr7wo</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile">Profile</string>
+    <string name="home">Home</string>
+    <string name="updates">Updates</string>
+    <string name="tickets">Tickets</string>
+    <string name="google_maps_key">AIzaSyA1-WPl1LTYLgs1xUaPyUkdFABFGGIr7wo</string>
+    <string name="booked_tickets">Booked Tickets</string>
+    <string name="booked">booked</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+</resources>
